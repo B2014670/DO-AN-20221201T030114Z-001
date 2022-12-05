@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Đăng nhập tài khoản</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/shop logo.png" alt="logo" width="90px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="trangchu.html" >Trang Chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gioithieu.html">Giới Thiệu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="sanpham.html">
+                  Sản Phẩm
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="lienhe.html">Liên Hệ</a>
+              </li>
+              <li class="nav-item">
+                <a href="dangky.html" class="nav-link ">Đăng Ký</a>
+              </li>
+              <li class="nav-item">
+                <a href="dangnhap.html" class="nav-link active ">Đăng Nhập</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        </header>
+        <main>
+          <div class="container">
+              <div class="row gy-3 my-3 text-center">
+                  <img src="images/dangnhap/nick-fewings-zF_pTLx_Dkg-unsplash.jpg" width="100%" alt="#">
+                  <h1>ĐĂNG NHẬP TÀI KHOẢN</h1>
+              </div>
+              <section>
+                  <div class="row">
+                      <div class="col-11 mx-auto py-3 my-3">
+                          <div class="row justify-content-center">
+                              
+                              <div class="col-7">
+                                      <section>
+                                          <form class="row g-3 justify-content-center" name="frmDangNhap" onsubmit="return signIn()" >
+                                              <div class="col-12">
+                                                <label for="login-name" class="form-label">Tên đăng nhập:</label>
+                                                <input type="text" class="form-control" name="name" id="login-name" placeholder="Email - SĐT">
+                                              </div>
+                                            
+                                              
+                                              <div class="col-12">
+                                                <label for="inputAddress" class="form-label">Mật khẩu</label>
+                                                <input type="text" class="form-control" name="password" id="inputAddress2">
+                                              </div>
+                                              
+                                             
+                                            
+                                              <div class="col-12">
+                                                <div class="form-check">
+                                                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                  <label class="form-check-label" for="gridCheck">
+                                                    Ghi nhớ tài khoản
+                                                  </label>
+                                                </div>
+                                              </div>
+                                              <div class="col-12">
+                                                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                                              </div>
+                                              <div class="col-12">
+                                                <p>Bạn chưa có tài khoản? Đăng ký <a href="dangky.html">Tại đây</a></p>
+                                              </div>
+                                            </form>
+                                      </section>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </div>
+      </main>
+</div>
+    <footer class="bg-light text-dark pt-5 pb-4">
+        <div class="container text-center text-md-letf">
+            <div class="row text-center text-md-letf">
+                  <div class="col-sm-3 col-md-3 col-lg-3 mx-auto mt-3 text-center">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-body">Tên Thành Viên</h5>
+                      <hr class="mb-4">
+                      <p style="font-size: 14px;">LÊ QUYỀN ANH B2014550</p>
+                      <p style="font-size: 14px;">PHẠM HỬU TRÍ B2000144</p>
+                      <p style="font-size: 14px;">ĐOÀN THỊ NGỌC TÚ B2014716</p>
+                      <p style="font-size: 14px;">NGUYỄN THÀNH LUÂN B2014670</p>
+                      <p style="font-size: 14px;">TRƯƠNG BÁ LỘC B2014757</p>
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-lg-3 mx-auto mt-3">
+                      <img src="./images/shop logo.png" style="margin:80px 0;" width="200px" alt="logo">
+                  </div>
+                  <div class="col-sm-3 col-md-3 col-lg-3 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-body">Địa Chỉ</h5>
+                      <hr class="mb-4">
+                      <p>
+                        <i class="fa-solid fa-house" style="margin-right: 10px;"></i> 97 Đồng Văn Cống
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-envelope" style="margin-right: 25px;"></i>shop@gmail.com
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-phone" style="margin-right: 15px;"></i> +8412345678910
+                      </p>
+                  </div>
+              </div>
+              <hr class="mb-4">
+               <div class="row d-flex justify-content-center">
+                  <div>
+                      <p>&copy; Bản quyền thuộc về FlowerShop</p>
+                  </div>
+            
+                 </div> 
+                 <div class="row d-flex justify-content-center">
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-dark"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-dark"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-dark"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                              <a href="#" class="text-dark"><i class="fa-brands fa-google-plus"></i></a>
+                          </li>
+                        </ul>
+                    </div>
+              </div>
+        
+        </div>
+    </footer>
+    
+    
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="js/formValidation.js"></script>
+</body> 
+    </div>
+   
+</html>

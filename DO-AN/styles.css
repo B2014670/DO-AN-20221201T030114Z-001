@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    border-radius: 60px;
+    margin-right: -35px;
+}
+.btn0{
+    border-radius: 60px;
+    background: black;
+    color: white;
+    font-weight: 700;
+    width: 60px;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+/* footer */
